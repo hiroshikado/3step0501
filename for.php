@@ -13,9 +13,21 @@
 	</div>
 	<div class="container padding-y-20">
 		<!-- ここから -->
+		<?php
+		for ( $i = 1; $i <= 5; $i++ ) {
+			echo "カウンタ変数：". $i. "<br>";
+		}
+		?>
 		<!-- ここまで -->
 		<ul>
 			<!-- ここから -->
+			<?php
+			for ( $i = 0; $i < 5; $i++ ) {
+				echo "<li>";
+				echo $i;
+				echo "</li>";
+			}
+			?>
 			<!-- ここまで -->
 		</ul>
 	</div>
